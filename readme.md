@@ -1,0 +1,1 @@
+Example showing how to send an email from an AWS Lambda function written using the Swift programming language

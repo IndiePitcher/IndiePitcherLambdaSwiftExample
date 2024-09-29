@@ -1,0 +1,22 @@
+{
+    "configurations": [
+        {
+            "type": "swift-lldb",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:IndiePitcherLambdaSwiftExample}",
+            "name": "Debug IndiePitcherLambdaSwiftExample",
+            "program": "${workspaceFolder:IndiePitcherLambdaSwiftExample}/.build/debug/IndiePitcherLambdaSwiftExample",
+            "preLaunchTask": "swift: Build Debug IndiePitcherLambdaSwiftExample"
+        },
+        {
+            "type": "swift-lldb",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:IndiePitcherLambdaSwiftExample}",
+            "name": "Release IndiePitcherLambdaSwiftExample",
+            "program": "${workspaceFolder:IndiePitcherLambdaSwiftExample}/.build/release/IndiePitcherLambdaSwiftExample",
+            "preLaunchTask": "swift: Build Release IndiePitcherLambdaSwiftExample"
+        }
+    ]
+}
