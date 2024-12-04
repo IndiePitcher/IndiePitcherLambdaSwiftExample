@@ -14,7 +14,7 @@ struct MyLambda: SimpleLambdaHandler {
 
     func handle(_ event: String, context: LambdaContext) async throws -> String {
 
-        let indiePitcher = IndiePitcher(client: .shared, apiKey: indiePitcherApiKey)
+        let indiePitcher = IndiePitcher(apiKey: indiePitcherApiKey)
 
         let emailBody = """
             This is an email sent from a **AWS Lambda function**!
