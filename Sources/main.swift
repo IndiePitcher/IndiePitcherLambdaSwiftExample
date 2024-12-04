@@ -18,7 +18,7 @@ struct MyLambda: SimpleLambdaHandler {
 
         try await indiePitcher.sendEmail(
             data: .init(
-                to: "petr@indiepitcher.com", subject: "Hello from ASS Lambda!", body: emailBody,
+                to: "petr@indiepitcher.com", subject: "Hello from AWS Lambda!", body: emailBody,
                 bodyFormat: .markdown))
 
         return "Email sent!"
